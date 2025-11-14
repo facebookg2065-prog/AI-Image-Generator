@@ -16,6 +16,18 @@ const App: React.FC = () => {
       <main className="w-full flex-grow">
         <ImageGenerator />
       </main>
+
+      <footer className="w-full max-w-5xl mt-12 pt-8 border-t border-gray-800">
+        <div className="flex flex-col items-start justify-start w-full text-left">
+          <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600 mb-2 font-serif">
+            عبدالله
+          </h2>
+          <div className="text-gray-400 font-serif italic text-lg leading-relaxed opacity-90">
+            <p>بريشةٍ تُحيلُ الصمتَ بوحاً</p>
+            <p>وترسمُ من خيالِ الروحِ لوحاً</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
