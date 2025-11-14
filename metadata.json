@@ -1,0 +1,5 @@
+{
+  "name": "AI Image Generator",
+  "description": "An application that uses Gemini's imagen-4.0-generate-001 model to generate high-quality images from text prompts with various aspect ratios.",
+  "requestFramePermissions": []
+}
